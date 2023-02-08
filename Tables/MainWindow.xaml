@@ -1,0 +1,56 @@
+﻿<Window x:Class="Tables.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tables"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <FlowDocument>
+        <Table>
+
+            <Table.Columns>
+                <TableColumn/>
+                <TableColumn/>
+                <TableColumn/>
+            </Table.Columns>
+            <TableRowGroup>
+                <TableRow>
+                    <TableCell>
+                        <Paragraph>Cell at Row 1 Column 1</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph>Cell at Row 1 Column 2</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph>Cell at Row 1 Column 3</Paragraph>
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>
+                        <Paragraph>Cell at Row 2 Column 1</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph>Cell at Row 2 Column 2</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph>Cell at Row 2 Column 3</Paragraph>
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>
+                        <Paragraph>Cell at Row 3 Column 1</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph>Cell at Row 3 Column 2</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph>Cell at Row 3 Column 3</Paragraph>
+                    </TableCell>
+                </TableRow>
+            </TableRowGroup>
+        </Table>
+
+       
+    </FlowDocument>
+</Window>
